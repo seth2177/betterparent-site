@@ -17,7 +17,7 @@
 
   <main class="wrap legal">
     <h1>Privacy Policy</h1>
-    <p class="eff">Effective date: June 28, 2026</p>
+    <p class="eff">Effective date: June 29, 2026</p>
 
     <p>Better Parent ("we," "us") makes a mobile app that suggests weather-appropriate activities for families. This policy explains what we collect, why, and your choices. We built Better Parent to need as little personal information as possible.</p>
 
@@ -25,15 +25,18 @@
     <ul>
       <li><strong>Account information.</strong> When you sign in (for example with Google), we receive your name and email address to create and secure your account.</li>
       <li><strong>Child profiles.</strong> You may add a child using a first name or nickname and their <strong>birth month and year only</strong>. We do not ask for a child's full date of birth, address, or other identifying details.</li>
-      <li><strong>Approximate location.</strong> To show local weather and nearby events, we use your approximate location or ZIP/postal code. We do not need or store precise GPS coordinates.</li>
-      <li><strong>Usage and device data.</strong> Basic, standard information such as app version, device type, and in-app actions, used to keep the app working and improve it.</li>
+      <li><strong>Approximate location.</strong> To show local weather, we use your approximate (city/ZIP-level) location. We request only coarse location and do not need or store precise GPS coordinates.</li>
+      <li><strong>Notifications.</strong> If you allow notifications, we register a device messaging token (through Firebase Cloud Messaging) so we can send reminders about upcoming time with your children and weather heads-ups. You can turn notifications off at any time in your device settings.</li>
+      <li><strong>Usage and analytics.</strong> Anonymous, aggregated information about how the app is used — such as which screens and activities are opened — through Google Analytics for Firebase, to understand what's helpful and improve the app.</li>
+      <li><strong>Crash and diagnostic data.</strong> If the app crashes, we collect crash reports and basic diagnostic information (such as app version and device type) through Firebase Crashlytics to find and fix problems.</li>
     </ul>
 
     <h2>How we use information</h2>
     <ul>
       <li>To suggest and rank activities based on your local weather and your children's ages.</li>
-      <li>To show nearby events and relevant gear suggestions.</li>
-      <li>To operate, secure, and improve the app.</li>
+      <li>To show relevant gear suggestions.</li>
+      <li>To send reminders and weather alerts about your upcoming time with your children, if you allow notifications.</li>
+      <li>To operate, secure, analyze, and improve the app (including crash reporting and usage analytics).</li>
     </ul>
 
     <h2>Children's privacy</h2>
@@ -42,7 +45,7 @@
     <h2>Third-party services</h2>
     <p>We use trusted providers to deliver the app's features:</p>
     <ul>
-      <li><strong>Google Firebase</strong> for sign-in, database, and hosting of your account data.</li>
+      <li><strong>Google Firebase</strong> for sign-in (Authentication), database (Firestore), notifications (Cloud Messaging), crash reporting (Crashlytics), and usage analytics (Google Analytics for Firebase).</li>
       <li><strong>OpenWeather</strong> to retrieve local weather forecasts.</li>
       <li><strong>Event providers</strong> (such as ticketing and listings services) to show nearby events.</li>
       <li><strong>Amazon</strong> for product information and shopping links. As an Amazon Associate, we earn from qualifying purchases. Using these links does not change the price you pay.</li>
